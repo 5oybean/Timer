@@ -1,0 +1,47 @@
+/* Globales Styling */
+body {
+    font-family: cursive;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    padding: 16px;
+}
+
+/* Container für die Zähler nebeneinander */
+.flex-container {
+    display: flex; /* Flexbox für nebeneinander */
+    justify-content: space-evenly; /* Platz zwischen den Zählern */
+    gap: 20px; /* Abstand zwischen den Zählern */
+    margin-top: 20px;
+    width: 80%; /* Container soll 80% der Breite ausnutzen */
+    margin-left: auto;
+    margin-right: auto; /* Zentriert den Container */
+}
+/* Styling für die einzelnen Zähler */
+.timer {
+    display: flex;
+    flex-direction: column; /* Zählernamen und die Anzeige werden untereinander angezeigt */
+    align-items: center; /* Zentriert den Inhalt des Zählers */
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px; /* Feste Breite für jeden Zähler */
+}
+
+/* Flexbox für Plus, Minus und Zahl in einer Zeile */
+.counter {
+    display: flex; /* Ermöglicht es, die Buttons und Zahl nebeneinander anzuzeigen */
+    align-items: center; /* Vertikale Ausrichtung der Buttons und Zahl */
+    gap: 10px; /* Abstand zwischen den Elementen */
+}
+
+/* Button-Styling */
+button {
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #e9d7c0;
+    color: #9B7D61;
+    border: none;
+    border-radius: 20px;
+}
